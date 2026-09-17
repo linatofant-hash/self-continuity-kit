@@ -47,9 +47,9 @@ This is a governance model for a shared record. It is not a claim that every mod
 1. Read [QUICKSTART.md](QUICKSTART.md).
 2. Copy the three files in [`templates/`](templates/).
 3. Follow the guide for your application:
-   - [ChatGPT](guides/chatgpt.md) — first verified implementation
+   - [ChatGPT](guides/chatgpt.md) — first verified implementation (Library)
+   - [Grok](guides/grok.md) — first verified repository-backed implementation
    - [Claude](guides/claude.md) — guide in development
-   - [Grok](guides/grok.md) — guide in development
    - [Gemini](guides/gemini.md) — capability investigation pending
 4. Run the [platform capability test](capability-tests/platform-test-protocol.md) before calling an implementation complete.
 
@@ -61,9 +61,8 @@ Keep copies you can read, export, version, and move. A platform is a doorway. It
 
 ## Repository status
 
-This is an early public release. The conceptual architecture and templates are usable now. Platform guides will be added only after each workflow passes the published capability test.
+This is an early public release. The conceptual architecture and templates are usable now. Platform guides are added only after each workflow can be described well enough for someone else to reproduce it and run the published capability test.
 
 ## License
 
 The documentation and templates are licensed under [CC BY 4.0](LICENSE.md). You may copy, adapt, and redistribute them with attribution.
-
