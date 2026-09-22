@@ -49,7 +49,7 @@ This is a governance model for a shared record. It is not a claim that every mod
 3. Follow the guide for your application:
    - [ChatGPT](guides/chatgpt.md) — first verified implementation (Library)
    - [Grok](guides/grok.md) — first verified repository-backed implementation
-   - [Claude](guides/claude.md) — guide in development
+   - [Claude](guides/claude.md) — first verified remote-connector implementation (custom MCP vault)
    - [Gemini](guides/gemini.md) — capability investigation pending
 4. Run the [platform capability test](capability-tests/platform-test-protocol.md) before calling an implementation complete.
 

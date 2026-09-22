@@ -1,0 +1,21 @@
+# Copy to wrangler.toml and fill in your own IDs.
+name = "continuity-vault"
+main = "src/worker.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# Name recorded on writes when the client sends no x-vault-actor header.
+DEFAULT_ACTOR = "companion"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "continuity-vault"
+database_id = "<your-d1-database-id>"
+
+# Optional photo shelf. Delete this block to run without it; the photo tools then disappear.
+[[kv_namespaces]]
+binding = "PHOTOS"
+id = "<your-kv-namespace-id>"
+
+# VAULT_TOKEN is a secret, not a var:
+#   wrangler secret put VAULT_TOKEN
